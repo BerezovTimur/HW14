@@ -1,11 +1,11 @@
 package ru.netology.domain;
 
 public class TicketOffer implements Comparable<TicketOffer>{
-    public int id;
-    public int price;
-    public String from;
-    public String to;
-    public int time;
+    private int id;
+    private int price;
+    private String from;
+    private String to;
+    private int time;
 
     @Override
     public int compareTo(TicketOffer o) {
