@@ -16,7 +16,6 @@ class TicketOfferRepositoryTest {
     TicketOffer item3 = new TicketOffer(3, 7500, "BKK", "LED", 1100);
     TicketOffer item4 = new TicketOffer(4, 18000, "LED", "BKK", 980);
     TicketOffer item5 = new TicketOffer(5, 8000, "LED", "BKK", 980);
-    TicketOffer item6 = new TicketOffer(6, 8500, "DME", "HEL", 980);
 
     @Test
     void save() {
