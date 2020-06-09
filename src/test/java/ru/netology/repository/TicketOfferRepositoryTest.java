@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TicketOfferRepositoryTest {
     TicketOfferRepository repository = new TicketOfferRepository();
-    TicketOfferManager item = new TicketOfferManager(repository);
 
     TicketOffer item1 = new TicketOffer(1, 10000, "LED", "BKK", 980);
     TicketOffer item2 = new TicketOffer(2, 15000, "LED", "HEL", 90);
